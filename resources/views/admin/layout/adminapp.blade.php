@@ -31,5 +31,9 @@
         <p class="footnote">&copy; 2017 Ian rizki perdana. All Rights Reserved.</p>
     </div>
 </html>
+ <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace( 'isi' );
+    </script>
 <script src="{{ asset ('js/jquery.min.js') }}"></script>
 <script src="{{asset ('bootstrap/js/bootstrap.min.js') }}"></script>
