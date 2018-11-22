@@ -17,6 +17,7 @@ resep
         				<a href="{{route('detail', $resep->id)}}">{{$resep->judul}}</a>
         			</span>
         @endforeach
+        
 			</div>
         </div>
         <div class="col-md-9">
