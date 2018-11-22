@@ -28,4 +28,6 @@ class BerandaController extends Controller
     	$resep = Resep::findOrFail($id);
         return view('detail-resep',compact('resep'));
     }
+
+    
 }

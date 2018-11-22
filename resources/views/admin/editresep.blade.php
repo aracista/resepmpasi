@@ -1,7 +1,7 @@
 @extends('admin.layout.adminapp')
 
 @section('title')
-beranda
+edit resep
 @endsection
 
 @section('body')
